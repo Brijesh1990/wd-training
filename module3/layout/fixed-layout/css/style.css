@@ -1,0 +1,21 @@
+/* elastic layout : whenever we take width:1px  and height:1px  that type of layot is called fixed layout*/
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header 
+{
+    width: 1370px;
+    height: 120px;
+    background-color: lightblue;
+}
+
+/* .header 
+{
+    width: 5.625em;
+    height: 7.5em;
+    background-color: lightblue;
+} */
