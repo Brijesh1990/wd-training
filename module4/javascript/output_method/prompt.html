@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script>
+        function test()
+        {
+        //add a number
+        var a=parseInt(prompt('Enter a number :'));
+        var b=parseInt(prompt('Enter b number :')); 
+        var c=a+b;
+        alert('Additions is :'+c)
+        }
+        function subs()
+        {
+        //substract a number
+        var a=parseInt(prompt('Enter a number :'));
+        var b=parseInt(prompt('Enter b number :')); 
+        var c=a-b;
+        alert('Susbtract is :'+c)
+        }
+
+        function div()
+        {
+        //substract a number
+        var a=parseInt(prompt('Enter a number :'));
+        var b=parseInt(prompt('Enter b number :')); 
+        var c=a/b;
+        alert('Devide is :'+c)
+        }
+        function mult()
+        {
+        //substract a number
+        var a=parseInt(prompt('Enter a number :'));
+        var b=parseInt(prompt('Enter b number :')); 
+        var c=a*b;
+        alert('Multiply is :'+c)
+        }
+        function mod()
+        {
+        //substract a number
+        var a=parseInt(prompt('Enter a number :'));
+        var b=parseInt(prompt('Enter b number :')); 
+        var c=a%b;
+        alert('Modulas is :'+c)
+        }
+    </script>
+</head>
+<body>
+
+    <center>
+        <button type="button" onclick="test()">Add Numbers</button>
+        <br><br>
+        <button type="button" onclick="subs()">Substract Numbers</button>
+        <br><br>
+        <button type="button" onclick="div()">Devide Numbers</button>
+        <br><br>
+        <button type="button" onclick="mult()">Multiply Numbers</button>
+        <br><br>
+        <button type="button" onclick="mod()">Modulas Numbers</button>
+        <br><br>
+    </center>
+    
+</body>
+</html>
