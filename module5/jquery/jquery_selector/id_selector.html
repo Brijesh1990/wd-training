@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<!-- jquery main CDN -->
+<script src='js/jquery.js'></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        
+        $("body").css({"background-color":"orange"});
+        
+        $("#para").css({"background-color":"black","color":"white","width":"50%","margin":"auto","padding":"10px"});
+
+        $("#para1").css({"background-color":"aqua","color":"white","width":"50%","margin":"auto","padding":"10px","margin-top":"4%"});
+
+        $("button").css({"background-color":"red","color":"white","width":"30%","margin":"auto","padding":"10px","border":"none","margin-top":"3%"});
+        
+
+        $("#btn").click(function()
+        {
+        alert('Hi i am using or load jquery')
+        window.location='http://www.onlineportfolio.byethost14.com';
+    
+    });
+    });
+</script>
+</head>
+<body>
+
+    <center>
+        <p id="para"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed soluta illo unde, veritatis, cupiditate labore, fugit repellendus possimus tenetur ipsam quisquam nemo deleniti laborum odio quas excepturi porro ut modi?</p>
+
+        <p id="para1"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed soluta illo unde, veritatis, cupiditate labore, fugit repellendus possimus tenetur ipsam quisquam nemo deleniti laborum odio quas excepturi porro ut modi?</p>
+
+        <button type="button" id="btn">Click Me!</button>
+    </center>
+
+    
+</body>
+</html>

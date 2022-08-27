@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='js/jquery.js'></script>
+    <script src='js/slide.js'></script>
+    <style>
+
+        .sec 
+        {
+            width: 50%;
+             height: auto;
+             margin: auto;
+             text-align: justify;
+        }
+
+        #account 
+        {
+            width: 70%;
+            height: auto;
+            padding: 15px;
+            color: white;
+            margin-top: 2%;
+            background-color: black;
+            display: none;
+        }
+
+        input[type="text"],input[type="password"]
+        {
+            width: 80%;
+            height: auto;
+            padding: 8px;
+            background-color: black;
+            border: none;
+            border-bottom: solid 2px red;
+        }
+        input[type="submit"]
+        {
+            width: 90%;
+            height: auto;
+            padding: 8px;
+            border: none;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="sec">
+    <button type="button" id="btn">Login </button>
+    |
+    <button type="button" id="btn1">Register</button>
+    <div id="account">
+
+        <form method="post">
+            <label>Email *</label>
+            <input type="text" name="email" placeholder="Email *" required>
+            <br><br>
+            <label>Email *</label>
+            <input type="password" name="pass" placeholder="Password *" required>
+            <br><br>
+            
+            <input type="submit" name="login" value="Sign In!">
+            <br><br>
+        </form>
+
+    </div>
+    </div>
+</body>
+</html>
